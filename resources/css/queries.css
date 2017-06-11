@@ -96,6 +96,25 @@
     .logo {
         padding: 10px;
     }
+    
+    .msg-code {
+        max-height: 300px;
+        max-width: 300px;
+    }
+    
+    .msg-code-text {
+        width: 100%;   
+    }
+    
+    .select-msg {
+        font-size: 16px;
+        width: 100%;
+    }
+    
+    p {
+        width: 100%;
+        font-size: 24px;
+    }
 }
 
 
@@ -108,5 +127,17 @@
     .contact-form {width: 100%;} 
     .logo {
         padding: 10px;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    .msg-text-bot {
+        width: 100%;
+    }
+    
+    .select-msg {
+        font-size: 14px;
     }
 }
