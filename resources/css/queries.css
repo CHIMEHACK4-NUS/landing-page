@@ -97,11 +97,6 @@
         padding: 10px;
     }
     
-    .msg-code {
-        max-height: 300px;
-        max-width: 300px;
-    }
-    
     .msg-code-text {
         width: 100%;   
     }
@@ -117,6 +112,19 @@
     }
 }
 
+@media only screen and (max-height: 420px) {
+    p {
+        display: none;
+    }
+    
+    .main-title {
+        display: none;
+    }
+    
+    .msg-code-text {
+        display: block;
+    }
+}
 
 /* Small phones */
 
@@ -130,14 +138,17 @@
     }
     
     p {
+        display: none;
         font-size: 20px;
     }
     
-    .msg-text-bot {
-        width: 100%;
+    .select-msg {
+        width: 100vh;
+        font-size: 14px;
     }
     
-    .select-msg {
-        font-size: 14px;
+    .msg-code-text {
+        display: none;
+        text-align: center;
     }
 }
