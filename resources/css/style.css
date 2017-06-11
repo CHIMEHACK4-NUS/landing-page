@@ -207,16 +207,24 @@ header {
 .msg-code {
     display: block;
     border: 1px solid transparent;
-    border-radius: 100px;
+    border-radius: 50%;
     height: auto;
     width: auto;
-    max-height: 130px;
-    max-width: 130px;
+    max-height: 400px;
+    max-width: 400px;
     margin: 30px auto;
 }
 
+.msg-code-text {
+    border-radius: 10px;
+    background: white;
+    color: black;
+    padding: 0px 20px;
+}
+
 .select-msg {
-    
+    color: black;
+    font-weight: bold;
 }
 
 .logo {
